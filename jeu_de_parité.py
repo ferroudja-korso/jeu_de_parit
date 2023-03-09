@@ -2,7 +2,7 @@ import random
 
 def jouer():
     nombre = random.randint(1, 50)
-    print("J'ai choisi un nombre entre 1 et 100. Devinez-le !")
+    print("J'ai choisi un nombre entre 1 et 50. Devinez-le !")
 
     while True:
         devine = int(input("Entrez votre réponse : "))
